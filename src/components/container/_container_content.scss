@@ -1,0 +1,14 @@
+.homepage-content-container {
+  margin-top: 2.5em;
+  background-color: $white-background;
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto !important;
+  float: none !important;
+  padding-bottom: 20px;
+}
+
+.homepage-content-container .cmp-teaser {
+  background-color: $color-lighter-background;
+  padding: 32px;
+}
