@@ -1,4 +1,4 @@
-.homepage-content-container {
+.homepage-content-container, .article-content-container, .contact-content-container {
   margin-top: 2.5em;
   background-color: $white-background;
   width: 100%;
@@ -27,3 +27,4 @@
   background-color: $color-lighter-background;
   padding: 32px;
 }
+
