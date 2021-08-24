@@ -1,4 +1,4 @@
-.main-article-content{
+.article-content-container, .contact-content-container {
   .breadcrumb {
     width: 100%;
     max-width: $max-width;
@@ -7,7 +7,7 @@
     margin-top: 1rem;
     width: 100%;
     max-width: $max-width;
-    padding: 0 120px;
+    /*padding: 0 120px; */
   }
   .cmp-breadcrumb__list {
     padding-inline-start: 0;

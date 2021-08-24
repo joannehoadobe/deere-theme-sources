@@ -7,12 +7,13 @@
   float: none !important;
   padding-bottom: 20px;
 }
-
+/*
 .homepage-content-container .cmp-teaser {
   background-color: $color-lighter-background;
   padding: 32px;
 }
-
+*/
+/*
 .article-content-container {
   margin-top: 2.5em;
   background-color: $white-background;
@@ -22,9 +23,32 @@
   float: none !important;
   padding-bottom: 20px;
 }
+*/
+.homepage-content-container .homepage-content-container {
+    margin: 0 !important;
+    width: 100% !important;
+}
 
-.article-content-container .cmp-teaser {
+.homepage-content-container .homepage-content-container .cmp-teaser {
   background-color: $color-lighter-background;
   padding: 32px;
+}
+
+.article-content-container .cmp-teaser {
+    background-color: $color-lighter-background;
+    padding: 32px;
+}
+
+.article-content-container .h1_style {
+    margin-left: 10% !important;
+}
+
+.article-content-container .main-article-content {
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.contact-content-container .h1_style {
+    margin: 0;
 }
 
